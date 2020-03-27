@@ -1,0 +1,13 @@
+@media screen and (max-width:400px) {
+	ul.menu>li {
+		width:25%;
+	}
+	#sct1 {
+		width:25%;
+		height:25%;
+		position:relative;
+	}
+	img#anc0 {
+		visibility:hidden;}
+		
+}
