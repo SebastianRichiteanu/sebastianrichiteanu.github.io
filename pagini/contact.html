@@ -2,20 +2,27 @@
 <html lang="ro">
   <head>
 	<link rel="stylesheet" type="text/css" href="../resurse/css/contact.css">
+	<link rel="stylesheet" type="text/css" href="../resurse/css/all.css"/>
 	<link rel="stylesheet" type="text/css" href="../resurse/css/responsive.css"/>
-	<link rel='icon' href='../favicon.ico' type='image/x-icon'/>
+	<link rel='icon' href='../resurse/img/favicon.ico' type='image/x-icon'/>
 	<title> Despre noi & Contact </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name = "contact" content = "Email">
-	<meta name = "description" content = "Despre noi">
-	<meta name = "keywords" content = "Contact">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<meta name = "contact" content = "Email,phone">
+	<meta name = "description" content = "Prima Pagina">
+	<meta name = "keywords" content = "produse,promotii">
   </head>
   <body>
 	<header>
 	<div id="sct1">
-		<img src="../resurse/img/zebra.png" height="128" width="128" alt="Zebra icon">
-		<h2 id="t1"> Zebra Shop </h2>
-		<img src="../resurse/img/zebra.png" height="128" width="128" alt="Zebra icon" id="anc0">
+		<div class="header_row">
+			<div class="header_col"> </div> 
+			<div class="header_col" id="hd_col">  
+				<img src="../resurse/img/zebra.png" height="128" width="128" alt="Zebra icon" title="Logo"> 
+				<h2 id="t1"> Zebra Shop </h2> 
+				<img src="../resurse/img/zebra.png" height="128" width="128" alt="Zebra icon" id="zebr2" title="Logo"> 
+			</div> 
+			<div class="header_col"> </div>
+		</div>
 	</div>
 	<nav class="wrapper">
 		<ul class="menu">
@@ -43,7 +50,11 @@
 		</ul>
     </nav>
     </header>
+	
 	<main>
+		<div class="grid_total">
+		<div class="grid-item" id="t_col1"> </div>
+		<div class="grid-item" id="t_col2">
 		<h1 id="id1h1"> Despre noi: </h1>
 			<section>
 				<h2 id="anc4">
@@ -74,12 +85,9 @@
 						</div>
 					</div>	
 				</section>
-		
-				
 		<section>
 		<h2> <br> Program contact</h2>
 		<table> 
-			
 			<tr>
 				<th> Zi </th>
 				<th> Program </th>
@@ -112,13 +120,14 @@
 				<th> Duminica </th>
 				<td> X </td>
 			</tr>
-		
-		
 			</table>
 		</section>
-		
+		</div>
+		<div class="grid-item" id="t_col3">
+		</div>
+		</div>
 	</main>
-	
 	<footer>
+		<a href="#"> <strong> Go at the top </strong></a>
 	</footer>
   </body>

@@ -2,20 +2,27 @@
 <html lang="ro">
   <head>
 	<link rel="stylesheet" type="text/css" href="resurse/css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="resurse/css/all.css"/>
 	<link rel="stylesheet" type="text/css" href="resurse/css/responsive.css"/>
-	<link rel='icon' href='../favicon.ico' type='image/x-icon'/>
+	<link rel='icon' href='resurse/img/favicon.ico' type='image/x-icon'/>
     <title >Zebra Shop</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name = "contact" content = "Email">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<meta name = "contact" content = "Email,phone">
 	<meta name = "description" content = "Prima Pagina">
-	<meta name = "keywords" content = "Magazinul">
+	<meta name = "keywords" content = "produse,promotii">
   </head>
   <body>
     <header>
 	<div id="sct1">
-		<img src="resurse/img/zebra.png" height="128" width="128" alt="Zebra icon">
-		<h2 id="t1"> Zebra Shop </h2>
-		<img src="resurse/img/zebra.png" height="128" width="128" alt="Zebra icon" id="anc0">
+		<div class="header_row">
+			<div class="header_col"> </div> 
+			<div class="header_col" id="hd_col">  
+				<img src="resurse/img/zebra.png" height="128" width="128" alt="Zebra icon" title="Logo"> 
+				<h2 id="t1"> Zebra Shop </h2> 
+				<img src="resurse/img/zebra.png" height="128" width="128" alt="Zebra icon" id="zebr2" title="Logo"> 
+			</div> 
+			<div class="header_col"> </div>
+		</div>
 	</div>
 	<nav class="wrapper">
 		<ul class="menu">
@@ -45,6 +52,10 @@
     </header>
 	
     <main>
+		<div class="grid_total">
+		<div class="grid-item" id="t_col1">
+		</div>
+		<div class="grid-item" id="t_col2">
 		<h1 id="id1h1"> Magazinul tau preferat de incaltaminte </h1>
 		<section>
 		<h2 id="anc1"> Branduri </h2>
@@ -71,7 +82,7 @@
 	<div>
 		<figure>
 			<img src="resurse/img/imagini_galerie/70s_hi_top.jpg" alt="Comme des Garcons 70s" />
-			<figcaption>Comme des Garcons 70s"</figcaption>
+			<figcaption>Comme des Garcons 70s</figcaption>
 		</figure>
 		<figure>
 			<img src="resurse/img/imagini_galerie/720.jpg" alt="Nike 720" />
@@ -95,16 +106,21 @@
 		</figure>
 		<figure>
 			<img src="resurse/img/imagini_galerie/pharrell.jpg" alt="Adidas x Pharrell" />
-			<figcaption>Adidas x Pharrell</figcaption>
+			<figcaption>Puma Pacer</figcaption>
 		</figure>
+		</div>
+		</div>
+		</div>
+		<div class="grid-item" id="t_col3">
+		</div>
 	</div>
-</div>
     </main>
     <footer>
 		<section>
 		<h2 id="anc4">Contact : </h2>
-		<p> Email : <a href="mailto:richiteanu.sebastian@gmail.com"> richiteanu.sebastian@gmail.com</a> <br>
-			Phone No : 07xxxxxxxx </p>
+		<p> <b> Email : <a href="mailto:richiteanu.sebastian@gmail.com"> richiteanu.sebastian@gmail.com</a> </b><br>
+			<i>Phone No : 07xxxxxxxx </i><br>
+			<a href="#"> <strong> Go at the top </strong></a></p>
 		</section>
     </footer>
   </body>
